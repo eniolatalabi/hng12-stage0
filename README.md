@@ -1,21 +1,70 @@
-# HNG12 Stage 0 - Public API
+HNG12 Stage 0 - Public API
 
-This is a simple public API for the **HNG12 Stage 0 Backend Task**.  
-It returns the following information in JSON format:
+Overview
 
-- The current datetime (ISO 8601 format)
-- 
+This repository contains a simple public API for the HNG12 Stage 0 Backend Task. The API provides the following information in JSON format:
 
-## **Technology Stack**
-- **Language/Framework:** JavaScript (Node.js + Express)
-- **Hosting:** Vercel
-- **Dependencies:** Express, CORS
+The registered email used for HNG12.
 
----
+The current datetime in ISO 8601 format.
 
-## **Project Setup (Run Locally)**
+The GitHub repository URL of this project.
 
-### **1. Clone the Repository**
-```bash
+Technology Stack
+
+Language/Framework: JavaScript (Node.js + Express)
+
+Hosting: Vercel
+
+Dependencies: Express, CORS
+
+Project Setup (Run Locally)
+
+Clone the Repository
+
 git clone https://github.com/eniolatalabi/hng12-stage0
 cd hng12-stage0
+
+Install Dependencies
+
+npm install
+
+Start the API
+
+npm start
+
+The API will be accessible at http://localhost:3000.
+
+API Documentation
+
+Endpoint: GET /
+
+Response:
+
+{
+  "email": "eniola.talabi@aol.com",
+  "current_datetime": "2025-01-30T09:30:00Z",
+  "github_url": "https://github.com/eniolatalabi/hng12-stage0"
+}
+
+Deployment Details
+
+This API was deployed using GitHub and Vercel.
+
+The code was pushed to a public GitHub repository: HNG12 Stage 0 API.
+
+The repository was linked to Vercel for seamless deployment.
+
+Vercel automatically detected the repository and configured the build settings.
+
+The deployment was completed successfully, making the API publicly accessible.
+
+Any further code updates pushed to the main branch trigger automatic redeployment on Vercel.
+
+Submission Checklist
+
+
+
+Author: Eniola 
+TalabiGitHub: eniolatalabi
+
