@@ -4,11 +4,14 @@
   "description": "HNG12 Stage 0 Public API",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "start": "node index.js"
-  },
+  
+    "scripts": {
+      "start": "node api/index.js",
+      "build": "echo 'Build script not needed for Node.js' && exit 0"
+    },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2"
   }
+  
 }
