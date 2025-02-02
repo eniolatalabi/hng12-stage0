@@ -61,7 +61,6 @@ The deployment was completed successfully, making the API publicly accessible.
 
 Any further code updates pushed to the main branch trigger automatic redeployment on Vercel.
 
-Submission Checklist
 
 
 
